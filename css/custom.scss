@@ -1,0 +1,140 @@
+/*--------------------------------------------------------------
+# code by Lee 10-06-15
+--------------------------------------------------------------*/
+
+
+/* TEXT UTILITIES */
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {}
+
+
+/* CUSTOM STYLES */
+
+body {}
+
+body * {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.login {
+	background-color: #414652;
+	color: #fff;
+	text-transform: capitalize;
+	border-radius: 10px;
+	height: 400px;
+	.status img{
+		margin: 0px 3px;
+	}
+	.switch img {
+		margin: 0px 10px;
+	}
+	.main {
+		padding: 30px 10px;
+	}
+	.close {
+		margin: 0px -10px;
+		text-align: right;
+	}
+	input {
+		border-radius: 5px;
+		border: 0px;
+		padding: 5px 40px;
+		width: 100%;
+		color: #4b4b4b;
+	}
+	.form-group {
+		margin: 15px 0px;
+		&.user {
+			position: relative;
+			&:before {
+				content: "";
+				background: url('../images/user-o.png') no-repeat center center;
+				width: 11px;
+				height: 14px;
+				position: absolute;
+				left: 12px;
+				top: 7px;
+				z-index: 99;
+			}
+			&:after {
+				content: "";
+				background: url('../images/caret-right-mini.png') no-repeat center center;
+				width: 11px;
+				height: 14px;
+				position: absolute;
+				right: 7px;
+				top: 7px;
+				z-index: 99;
+			}
+		}
+		&.pass {
+			position: relative;
+			margin-bottom: 50px;
+			&:before {
+				content: "";
+				background: url('../images/key.png') no-repeat center center;
+				width: 21px;
+				height: 10px;
+				position: absolute;
+				left: 7px;
+				top: 10px;
+				z-index: 99;
+			}
+		}
+	}
+	.fingerprint {
+		background: url('../images/fingerprint.png') center center no-repeat #fff;
+		border: 0px;
+		border-radius: 50%;
+		height: 65px;
+		width: 65px;
+	}
+	.switch a {
+		color: #fff;
+	}
+}

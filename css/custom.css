@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------
+# code by Lee 10-06-15
+--------------------------------------------------------------*/
+/* TEXT UTILITIES */
+/* line 8, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-left {
+  text-align: left; }
+
+/* line 12, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-right {
+  text-align: right; }
+
+/* line 16, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-center {
+  text-align: center; }
+
+/* line 20, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-justify {
+  text-align: justify; }
+
+/* line 24, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-nowrap {
+  white-space: nowrap; }
+
+/* line 28, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-lowercase {
+  text-transform: lowercase; }
+
+/* line 32, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-uppercase {
+  text-transform: uppercase; }
+
+/* line 36, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.text-capitalize {
+  text-transform: capitalize; }
+
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* CUSTOM STYLES */
+/* line 60, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+body * {
+  font-family: 'PT Sans', sans-serif; }
+
+/* line 64, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+.login {
+  background-color: #414652;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 10px;
+  height: 400px; }
+  /* line 70, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .status img {
+    margin: 0px 3px; }
+  /* line 73, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .switch img {
+    margin: 0px 10px; }
+  /* line 76, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .main {
+    padding: 30px 10px; }
+  /* line 79, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .close {
+    margin: 0px -10px;
+    text-align: right; }
+  /* line 83, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login input {
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 40px;
+    width: 100%;
+    color: #4b4b4b; }
+  /* line 90, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .form-group {
+    margin: 15px 0px; }
+    /* line 92, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+    .login .form-group.user {
+      position: relative; }
+      /* line 94, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+      .login .form-group.user:before {
+        content: "";
+        background: url("../images/user-o.png") no-repeat center center;
+        width: 11px;
+        height: 14px;
+        position: absolute;
+        left: 12px;
+        top: 7px;
+        z-index: 99; }
+      /* line 104, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+      .login .form-group.user:after {
+        content: "";
+        background: url("../images/caret-right-mini.png") no-repeat center center;
+        width: 11px;
+        height: 14px;
+        position: absolute;
+        right: 7px;
+        top: 7px;
+        z-index: 99; }
+    /* line 115, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+    .login .form-group.pass {
+      position: relative;
+      margin-bottom: 50px; }
+      /* line 118, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+      .login .form-group.pass:before {
+        content: "";
+        background: url("../images/key.png") no-repeat center center;
+        width: 21px;
+        height: 10px;
+        position: absolute;
+        left: 7px;
+        top: 10px;
+        z-index: 99; }
+  /* line 130, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .fingerprint {
+    background: url("../images/fingerprint.png") center center no-repeat #fff;
+    border: 0px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px; }
+  /* line 137, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  .login .switch a {
+    color: #fff; }
+
+/*# sourceMappingURL=custom.css.map */
