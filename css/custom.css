@@ -2,35 +2,35 @@
 # code by Lee 10-06-15
 --------------------------------------------------------------*/
 /* TEXT UTILITIES */
-/* line 8, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 8, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-left {
   text-align: left; }
 
-/* line 12, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 12, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-right {
   text-align: right; }
 
-/* line 16, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 16, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-center {
   text-align: center; }
 
-/* line 20, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 20, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-justify {
   text-align: justify; }
 
-/* line 24, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 24, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-nowrap {
   white-space: nowrap; }
 
-/* line 28, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 28, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-lowercase {
   text-transform: lowercase; }
 
-/* line 32, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 32, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-uppercase {
   text-transform: uppercase; }
 
-/* line 36, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 36, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .text-capitalize {
   text-transform: capitalize; }
 
@@ -38,44 +38,50 @@
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 /* CUSTOM STYLES */
-/* line 60, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 58, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+body {
+  min-width: 500px;
+  width: auto !important;
+  width: 500px; }
+
+/* line 64, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 body * {
   font-family: 'PT Sans', sans-serif; }
 
-/* line 64, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+/* line 68, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
 .login {
   background-color: #414652;
   color: #fff;
   text-transform: capitalize;
   border-radius: 10px;
   height: 400px; }
-  /* line 70, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 74, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .status img {
     margin: 0px 3px; }
-  /* line 73, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 77, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .switch img {
     margin: 0px 10px; }
-  /* line 76, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 80, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .main {
     padding: 30px 10px; }
-  /* line 79, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 83, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .close {
     margin: 0px -10px;
     text-align: right; }
-  /* line 83, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 87, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login input {
     border-radius: 5px;
     border: 0px;
     padding: 5px 40px;
     width: 100%;
     color: #4b4b4b; }
-  /* line 90, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 94, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .form-group {
     margin: 15px 0px; }
-    /* line 92, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+    /* line 96, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
     .login .form-group.user {
       position: relative; }
-      /* line 94, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+      /* line 98, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
       .login .form-group.user:before {
         content: "";
         background: url("../images/user-o.png") no-repeat center center;
@@ -85,7 +91,7 @@ body * {
         left: 12px;
         top: 7px;
         z-index: 99; }
-      /* line 104, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+      /* line 108, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
       .login .form-group.user:after {
         content: "";
         background: url("../images/caret-right-mini.png") no-repeat center center;
@@ -95,11 +101,11 @@ body * {
         right: 7px;
         top: 7px;
         z-index: 99; }
-    /* line 115, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+    /* line 119, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
     .login .form-group.pass {
       position: relative;
       margin-bottom: 50px; }
-      /* line 118, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+      /* line 122, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
       .login .form-group.pass:before {
         content: "";
         background: url("../images/key.png") no-repeat center center;
@@ -109,15 +115,108 @@ body * {
         left: 7px;
         top: 10px;
         z-index: 99; }
-  /* line 130, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 134, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .fingerprint {
     background: url("../images/fingerprint.png") center center no-repeat #fff;
     border: 0px;
     border-radius: 50%;
     height: 65px;
     width: 65px; }
-  /* line 137, C:/Users/MarkDavidLee/Desktop/electron/css/custom.scss */
+  /* line 141, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
   .login .switch a {
     color: #fff; }
+
+/* line 146, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+.main-menu {
+  background-color: #e4e4e4;
+  height: 50px;
+  border-bottom: #bbbbbb solid 1px; }
+  /* line 150, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-menu > div {
+    padding: 10px; }
+  /* line 153, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-menu .nav-icon {
+    margin: 0px 10px;
+    padding: 0px;
+    list-style: none; }
+    /* line 157, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+    .main-menu .nav-icon li {
+      display: inline-block;
+      float: left;
+      padding: 0px 5px; }
+      /* line 161, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+      .main-menu .nav-icon li a {
+        width: 24px;
+        height: 24px; }
+  /* line 167, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-menu .search {
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    width: 200px;
+    background: url("../images/magnify.png") 95% 50% no-repeat #fff; }
+  /* line 174, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-menu .show-hide {
+    padding: 5px; }
+
+/* line 180, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+.main-content ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 185, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+.main-content .folders > li {
+  background: #eaeaea;
+  position: relative; }
+  /* line 188, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .folders > li > a {
+    margin-left: 50px; }
+  /* line 191, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .folders > li:before {
+    content: "";
+    background: url("../images/folder.png") no-repeat center center;
+    width: 25px;
+    height: 25px;
+    left: 15px;
+    position: absolute; }
+  /* line 199, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .folders > li a {
+    color: #424652;
+    font-weight: bolder;
+    font-size: 18px;
+    text-transform: capitalize; }
+
+/* line 206, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+.main-content .item {
+  background: #fff;
+  margin: 0px;
+  padding: 0px; }
+  /* line 211, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .item > li:before, .main-content .item > li:after {
+    display: table;
+    content: " ";
+    clear: both; }
+  /* line 216, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .item > li:hover {
+    background-color: #ff6600; }
+    /* line 218, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+    .main-content .item > li:hover p {
+      color: #fff; }
+  /* line 223, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .item p {
+    margin: 0px;
+    color: #6e6e6e; }
+  /* line 227, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .item .title {
+    font-size: 18px;
+    font-weight: bolder; }
+  /* line 231, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .item .favorite, .main-content .item .option {
+    text-align: center;
+    padding: 5px 0px; }
+  /* line 235, C:/Users/MarkDavidLee/Desktop/electron/onering-Lee/css/custom.scss */
+  .main-content .item .option img {
+    margin: 0px 7px; }
 
 /*# sourceMappingURL=custom.css.map */

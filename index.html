@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Onering</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/custom.css">
@@ -9,46 +12,97 @@
 </head>
 
 <body>
-	<section class="login col-md-3">
-		<div class="close"><a href="#"><img src="images/login-close.png" alt=""></a></div>
-		<div class="col-md-10 col-md-offset-1">
-			<div class="main text-center">
-				<img src="images/logo.png" alt="logo">
-				<p class="text-center status">fingerprint login <img src="images/mini-fone.png" alt=""><img src="images/caret-right-mini-o.png" alt=""></p>
-				<form action="">
-					<div class="form-group user">
-						<input type="text">
-					</div>
-					<div class="form-group">
-						<button type="submit" class="fingerprint"></button>
-					</div>
-				</form>
-				<div class="switch">
-					<a href="#">enter password <img src="images/chevron-right-o.png" alt=""></a>
-				</div>
-			</div>
+	<section class="main-menu">
+		<div class="col-xs-6">
+			<ul class="nav-icon">
+				<li><a href="" title="Toggle Grid View"><img src="images/grid.png" alt=""></a></li>
+				<li><a href="" title="Add New"><img src="images/add.png" alt=""></a></li>
+				<li><a href="" title="Settings"><img src="images/gear.png" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="col-xs-6 text-right">
+			<input type="text" class="search">
+			<a href="" class="show-hide"><img src="images/forward.png" alt=""></a>
 		</div>
 	</section>
-	<section class="login col-md-3">
-		<div class="close"><a href="#"><img src="images/login-close.png" alt=""></a></div>
-		<div class="col-md-10 col-md-offset-1">
-			<div class="main text-center">
-				<img src="images/logo.png" alt="logo">
-				<p class="text-center status">fingerprint login <img src="images/mini-fone.png" alt=""><img src="images/caret-right-mini-o.png" alt=""></p>
-				<form action="">
-					<div class="form-group user">
-						<input type="text">
+	<section class="main-content">
+		<ul class="folders">
+			<li><a href="">bank folder</a>
+				<ul class="item">
+					<li>
+						<div class="col-xs-1 favorite">
+							<a href=""><img src="images/star-dark.png" alt=""></a>
+						</div>
+						<div class="col-sm-9 col-xs-8">
+							<p class="title">Bank of America</p>
+							<p class="desc">The Dude</p>
+						</div>
+						<div class="col-sm-2 col-xs-3 option">
+							<a href=""><img src="images/share-dark.png" alt=""></a>
+							<a href=""><img src="images/password-dark.png" alt=""></a>
+						</div>
+					</li>
+					<li>
+						<div class="col-xs-1 favorite">
+							<a href=""><img src="images/star-dark.png" alt=""></a>
+						</div>
+						<div class="col-sm-9 col-xs-8">
+							<p class="title">Chase Bank</p>
+							<p class="desc">Bob</p>
+						</div>
+						<div class="col-sm-2 col-xs-3 option">
+							<a href=""><img src="images/share-dark.png" alt=""></a>
+							<a href=""><img src="images/password-dark.png" alt=""></a>
+						</div>
+					</li>
+					<li>
+						<div class="col-xs-1 favorite">
+							<a href=""><img src="images/star-dark.png" alt=""></a>
+						</div>
+						<div class="col-sm-9 col-xs-8">
+							<p class="title">Wells Fargo</p>
+							<p class="desc">Ted</p>
+						</div>
+						<div class="col-sm-2 col-xs-3 option">
+							<a href=""><img src="images/share-dark.png" alt=""></a>
+							<a href=""><img src="images/password-dark.png" alt=""></a>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li><a href="">news</a></li>
+			<ul class="item">
+				<li>
+					<div class="col-xs-1 favorite">
+						<a href=""><img src="images/star-dark.png" alt=""></a>
 					</div>
-					<div class="form-group pass">
-						<input type="password">
+					<div class="col-sm-9 col-xs-8">
+						<p class="title">CNN connection</p>
+						<p class="desc">Anon</p>
 					</div>
-				</form>
-				<div class="switch">
-					<a href="#"><img src="images/chevron-left-o.png" alt="">scan fingerprint</a>
-				</div>
-			</div>
-		</div>
+					<div class="col-sm-2 col-xs-3 option">
+						<a href=""><img src="images/share-dark.png" alt=""></a>
+						<a href=""><img src="images/password-dark.png" alt=""></a>
+					</div>
+				</li>
+				<li>
+					<div class="col-xs-1 favorite">
+						<a href=""><img src="images/star-dark.png" alt=""></a>
+					</div>
+					<div class="col-sm-9 col-xs-8">
+						<p class="title">MSNBC connection</p>
+						<p class="desc">Anon 2</p>
+					</div>
+					<div class="col-sm-2 col-xs-3 option">
+						<a href=""><img src="images/share-dark.png" alt=""></a>
+						<a href=""><img src="images/password-dark.png" alt=""></a>
+					</div>
+				</li>
+			</ul>
+		</ul>
 	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+	<script src="include-js/custom.js"></script>
 </body>
-
 </html>
