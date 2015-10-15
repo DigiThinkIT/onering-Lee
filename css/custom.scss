@@ -50,7 +50,14 @@
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+	.md-resize{
+		width: 60%;
+	}
+	.sidebar{
+		width: 40%;
+	}
+}
 
 
 /* CUSTOM STYLES */
@@ -64,7 +71,22 @@ body {
 body * {
 	font-family: 'PT Sans', sans-serif;
 }
-
+section{
+	&:before, &:after{
+		display: table;
+		content: " ";
+		clear: both;
+	}
+}
+.expand{
+	content: url('../images/caret-right.png');
+}
+.collapse{
+	content: url('../images/caret-bottom.png');
+}
+.md-resize{
+	width: 70%;
+}
 .login {
 	background-color: #414652;
 	color: #fff;
@@ -142,7 +164,26 @@ body * {
 		color: #fff;
 	}
 }
-
+.title-bar{
+	background-color: #424652;	
+	padding: 10px 0px;
+	display: block;	
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+	img{
+		margin: 0px 5px;
+	}
+	img, a{		
+		-webkit-app-region: no-drag;
+	}
+	h1{
+		color: #fff;
+		text-align: center;
+		margin: 0px;
+		font-size: 16px;
+		font-weight: normal;
+	}
+}
 .main-menu {
 	background-color: #e4e4e4;
 	height: 50px;
@@ -174,6 +215,16 @@ body * {
 	.show-hide {
 		padding: 5px;
 	}
+	.sidebar{
+		width: 30%;
+		display: block;
+		min-height: 92%;
+		height: auto;
+		position: absolute;
+		right: 0px;
+		background-color: #eeeeee;
+		display: none;
+	}	
 }
 
 .main-content {
@@ -187,6 +238,9 @@ body * {
 		position: relative;	
 		>a{
 			margin-left: 50px;
+			img{
+				margin: 10px 5px;
+			}
 		}
 		&:before {
 			content: "";
@@ -207,6 +261,7 @@ body * {
 		background: #fff;
 		margin: 0px;
 		padding: 0px;
+		display: none;
 		>li{			
 			&:before, &:after{
 				display: table;

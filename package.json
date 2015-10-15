@@ -1,5 +1,6 @@
 {
-  "name"    : "your-app",
-  "version" : "0.1.0",
-  "main"    : "main.js"
+	"name": "onering",
+	"productName": "Onering",
+	"version": "0.1.0",
+	"main": "main.js"
 }
