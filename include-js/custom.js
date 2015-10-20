@@ -20,5 +20,6 @@ $(document).ready(function () {
 		$(this).parents('.main-menu').find('.sidebar').toggle();
 		$(this).parents('.main-menu').toggleClass('md-resize');
 		$('.main-content').toggleClass('md-resize');
+		$(this).find('.show-hide').toggleClass('hide-show');
 	});
 });
